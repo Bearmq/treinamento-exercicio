@@ -5,5 +5,6 @@ class Veiculo(ABC):
         self.marca = marca
         self.modelo = modelo
     
+    @abstractmethod
     def ligar(self):
-        print('Vruuuuuum')
+        pass

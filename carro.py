@@ -5,5 +5,5 @@ class Carro(Veiculo):
         super().__init__(marca, modelo)
         self.cor =  cor
 
-    def __str__(self):
-        return f"Marca: {self.marca}, Modelo: {self.modelo}, Cor: {self.cor}"
+    def ligar(self):
+        print(f"O carro {self.modelo} está ligado.")
