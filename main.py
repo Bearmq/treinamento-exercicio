@@ -1,4 +1,4 @@
-from carro import Carro
+from veiculo import Carro
 
 carro1 = Carro(marca="Ford", modelo="Focus", cor="Preto")
 carro2 = Carro(marca="Chevrolet", modelo="Cruze", cor="Prata")
